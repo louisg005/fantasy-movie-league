@@ -5,7 +5,8 @@
         <title>Fantasy Movie League</title>
     </head>
     <body>
-    <h1>Persona</h1>
+    <h1>Persona:</h1>
     <p>The core user of Fantasy Movie League is a cinephile.</p>
+    <h1>Use case:</h1>
     </body>
 </html>
