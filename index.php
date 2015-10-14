@@ -17,5 +17,6 @@
         <li>The amount of "FML bucks" they have remaining in their account</li>
     </ul>
     <p>In the main body of the page, the user can view the eight empty "theater screens" alongside a list of the available movies.<br><br>Each item in the movie list is represented by an image from the film, the title of the film, and its cost to the user (in FB$).<br><br>The first action taken by the user is to select a movie. By clicking on one of the listed movies, the user has placed that movie into "Screen 1". Doing so also subtracts the cost of the movie from the user's total available FB$, which is reflected in the top portion of the page. If the user's amount of remaining FB$ is less than the cost of any of the movies, then the images representing those movies will become blurry and a line of text will appear over them indicating that they are now "UNAVAILABLE" to the user.</p>
+    <p>In the event that </p>
     </body>
 </html>
