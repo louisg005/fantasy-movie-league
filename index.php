@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Fantasy Movie League</title>
     </head>
+    <hr>
     <body>
     <h1>Fantasy Movie League</h1>
     <h2>Persona:</h2>
