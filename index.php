@@ -16,6 +16,6 @@
         <li>The deadline by which they must have their picks locked in (date/time)</li>
         <li>The amount of "FML bucks" they have remaining in their account</li>
     </ul>
-    <p>In the main body of the page, the user can view the eight empty "theater screens" alongside a list of the available movies.</p>
+    <p>In the main body of the page, the user can view the eight empty "theater screens" alongside a list of the available movies.<br>Each item in the movie list is represented by an image from the film, the title of the film, and its cost to the user (in FB$).</p>
     </body>
 </html>
