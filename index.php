@@ -31,16 +31,23 @@
     </ul>
     <p><strong>IMPORTANT NOTE:</strong>  Jesse is not required to spend all of his allocated FML BUX or fill all 8 Screen Slots, nor may it be in his best interest to do so strategically. Because of this, Jesse's entries are constantly saved automatically, but the indication of this is small and could easily go unnoticed by Jesse. A "confirm changes" button, while not technically necessary, could lead to Jesse's understanding of the rules of the game and thus, enjoyment.</p>
     <hr>
-    <p>FML:</p>
+    <p>SCREENS:</p>
     <ul>
-        <li>season</li>
-        <li>week</li>
-        <li>deadline</li>
+        <li>primary key</li>
+        <li>movie ID (foreign key)</li>
+        <li>time added</li>
+        <li>time removed (optional)</li>
+        <li>screen number</li>
+    </ul>
+    <p>MOVIE:</p>
+    <ul>
+        <li>movie ID (primary key)</li>
+        <li>movie title</li>
+        <li>FML BUX cost</li>
     </ul>
     <p>USER:</p>
     <ul>
         <li>name</li>
-        <li>total box office</li>
-        <li>season ranking</li>
+        <li>FML BUX remaining</li>
 
 </html>
