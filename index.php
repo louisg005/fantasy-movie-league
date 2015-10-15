@@ -23,6 +23,6 @@
         <li>Their remaining FB$ is no longer equal to or greater than the cost of any movie</li>
         <li>All 8 of the Screen Slots have been filled</li>
     </ul>
-    <p><strong>IMPORTANT NOTE:</strong>  The user is not required to spend all of their allocated FB$ or fill all 8 Screen Slots, nor may it be in their best interest to do so strategically. The lack of a </p>
+    <p><strong>IMPORTANT NOTE:</strong>  The user is not required to spend all of their allocated FB$ or fill all 8 Screen Slots, nor may it be in their best interest to do so strategically. Because of this, the user's entries are constantly saved automatically, but the user is given no indication of this. The lack of a "confirm changes" button on the page could contribute to the lack of the user's awareness of the rules of the game, and thus enjoyment. </p>
     </body>
 </html>
