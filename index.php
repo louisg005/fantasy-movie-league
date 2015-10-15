@@ -19,6 +19,7 @@
         <li>The amount of "FML BUX" they have remaining in their account</li>
     </ul>
     <p>In the main body of the page, the system displays the eight empty "theater screens" alongside a list of the available movies.<br><br>Each item in the movie list is represented by an image from the film, the title of the film, and its cost to Jesse (in FML BUX).</p>
+    <h3>Adding a movie to a screen</h3>
     <p>The first action taken by Jesse is to select a movie. By clicking on one of the listed movies, Jesse has selected that movie to play on "Screen 1".</p>
     <p>This is represented to Jesse by the appearance of the movie's poster in Screen Slot 1. Taking this action also subtracts the cost of the movie from Jesse's total available FML BUX, which is reflected in the top portion of the page. If the Jesse's amount of remaining FB$ is less than the cost of any of the movies, then the images representing those movies will become blurry and a line of text will appear over them indicating that they are now "UNAVAILABLE" to Jesse.</p>
     <p>Each time Jesse selects a movie to add to their Cineplex, the system places that movie poster in the vacant Screen Slot with the lowest number.</p>
