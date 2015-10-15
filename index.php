@@ -16,20 +16,27 @@
         <li>The current season of play</li>
         <li>The current week within the season</li>
         <li>The deadline by which Jesse must have his picks locked in (date/time)</li>
-        <li>The amount of "FB$" they have remaining in their account</li>
+        <li>The amount of "FML BUX" they have remaining in their account</li>
     </ul>
-    <p>In the main body of the page, the system displays the eight empty "theater screens" alongside a list of the available movies.<br><br>Each item in the movie list is represented by an image from the film, the title of the film, and its cost to Jesse (in FB$).<br><br>The first action taken by Jesse is to select a movie. By clicking on one of the listed movies, Jesse has selected that movie to play on "Screen 1".</p>
-    <p>This is represented to Jesse by the appearance of the movie's poster in Screen Slot 1. Taking this action also subtracts the cost of the movie from Jesse's total available FB$, which is reflected in the top portion of the page. If the Jesse's amount of remaining FB$ is less than the cost of any of the movies, then the images representing those movies will become blurry and a line of text will appear over them indicating that they are now "UNAVAILABLE" to Jesse.</p>
+    <p>In the main body of the page, the system displays the eight empty "theater screens" alongside a list of the available movies.<br><br>Each item in the movie list is represented by an image from the film, the title of the film, and its cost to Jesse (in FML BUX).</p>
+    <p>The first action taken by Jesse is to select a movie. By clicking on one of the listed movies, Jesse has selected that movie to play on "Screen 1".</p>
+    <p>This is represented to Jesse by the appearance of the movie's poster in Screen Slot 1. Taking this action also subtracts the cost of the movie from Jesse's total available FML BUX, which is reflected in the top portion of the page. If the Jesse's amount of remaining FB$ is less than the cost of any of the movies, then the images representing those movies will become blurry and a line of text will appear over them indicating that they are now "UNAVAILABLE" to Jesse.</p>
     <p>Each time Jesse selects a movie to add to their Cineplex, the system places that movie poster in the vacant Screen Slot with the lowest number.</p>
     <p>Jesse may wish to revoke his decision to select a movie. To do so, he needs to hover over the chosen movie poster in its Screen Slot. The system then displays the clickable message "REMOVE". If Jesse clicks this, then that movie will be removed from that Screen Slot and the spent FB$ will be refunded to him. Any movies located in Screen Slots with higher Screen Numbers than the recently vacated slot will each move down by one slot to fill the lowest possible Screen Slot Numbers. </p>
     <p>Each time Jesse adds or removes a movie from his Cineplex, the system briefly displays a message of "ALL CHANGES SAVED" near the top of the screen.</p>
     <p>Jesse may continue to select available movies from the list until one of 2 things happen:</p>
     <ul>
-        <li>His remaining FB$ is no longer equal to or greater than the cost of any movie</li>
+        <li>His remaining FML BUX is no longer equal to or greater than the cost of any movie</li>
         <li>All 8 of the Screen Slots have been filled</li>
     </ul>
-    <p><strong>IMPORTANT NOTE:</strong>  Jesse is not required to spend all of his allocated FB$ or fill all 8 Screen Slots, nor may it be in his best interest to do so strategically. Because of this, Jesse's entries are constantly saved automatically, but the indication of this is small and could easily go unnoticed by Jesse. A "confirm changes" button, while not technically necessary, could lead to Jesse's understanding of the rules of the game and thus, enjoyment.</p>
+    <p><strong>IMPORTANT NOTE:</strong>  Jesse is not required to spend all of his allocated FML BUX or fill all 8 Screen Slots, nor may it be in his best interest to do so strategically. Because of this, Jesse's entries are constantly saved automatically, but the indication of this is small and could easily go unnoticed by Jesse. A "confirm changes" button, while not technically necessary, could lead to Jesse's understanding of the rules of the game and thus, enjoyment.</p>
     <hr>
+    <p>FML:</p>
+    <ul>
+        <li>season</li>
+        <li>week</li>
+        <li>deadline</li>
+    </ul>
     <p>USER:</p>
     <ul>
         <li>name</li>
