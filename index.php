@@ -41,11 +41,10 @@
         <li>time added</li>
         <li>time removed (optional)</li>
         <li>screen number</li>
+        <li>movie title</li>
     </ul>
     <p>MOVIE:</p>
     <ul>
-        <li>movie ID (primary key)</li>
-        <li>movie title</li>
-        <li>FML BUX cost</li>
+        <li>movie ID (primary key)........ONE-TO-MANY relationship with rows in the SCREENS table</li>
     </ul>
 </html>
