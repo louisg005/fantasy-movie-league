@@ -50,4 +50,6 @@
         <li>movie title</li>
         <li>FML BUX cost</li>
     </ul>
+    <hr>
+    <p>wtfffff</p>
 </html>
