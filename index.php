@@ -16,10 +16,11 @@
         <li>The current season of play</li>
         <li>The current week within the season</li>
         <li>The deadline by which they must have their picks locked in (date/time)</li>
-        <li>The amount of "FML bucks" they have remaining in their account</li>
+        <li>The amount of "FB$" they have remaining in their account</li>
     </ul>
     <p>In the main body of the page, the user can view the eight empty "theater screens" alongside a list of the available movies.<br><br>Each item in the movie list is represented by an image from the film, the title of the film, and its cost to the user (in FB$).<br><br>The first action taken by the user is to select a movie. By clicking on one of the listed movies, the user has selected that movie to play on "Screen 1". This is represented to the user by the appearance of the movie's poster in the Screen 1 box. Taking this action also subtracts the cost of the movie from the user's total available FB$, which is reflected in the top portion of the page. If the user's amount of remaining FB$ is less than the cost of any of the movies, then the images representing those movies will become blurry and a line of text will appear over them indicating that they are now "UNAVAILABLE" to the user.</p>
-    <p>The user may wish to revoke their decision to select a movie. To do so, they need only to hover over the chosen movie poster in its Screen Slot. This creates a clickable message, "REMOVE". If the user clicks this, then that movie will be removed from the screen. Any movies located in Screen Slots with higher Screen Numbers than the recently vacated slot will each move down by one slot to fill the lowest possible Screen Slot Numbers. </p>
+    <p>Each time the user selects a movie to add to their Cineplex, it fills the open Screen Slot of the lowest number.</p>
+    <p>The user may wish to revoke their decision to select a movie. To do so, they need only to hover over the chosen movie poster in its Screen Slot. This creates a clickable message, "REMOVE". If the user clicks this, then that movie will be removed from that Screen Slot and the spent FB$ will be refunded to the user. Any movies located in Screen Slots with higher Screen Numbers than the recently vacated slot will each move down by one slot to fill the lowest possible Screen Slot Numbers. </p>
     <p>Each time the user adds or removes a movie from their Cineplex, a message briefly appears near the top of the screen notifying them that "ALL CHANGES (HAVE BEEN) SAVED"</p>
     <p>The user may continue to select available movies from the list until one of 2 things happen:</p>
     <ul>
