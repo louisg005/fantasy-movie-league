@@ -51,5 +51,5 @@
         <li>FML BUX cost</li>
     </ul>
     <hr>
-    <p>wtfffff</p>
+    <img src="fantasy-movie-league-erd(1).svg" alt="entity relationship diagram"/>
 </html>
