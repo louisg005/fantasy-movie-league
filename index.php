@@ -26,8 +26,8 @@
     <p>Each time Jesse adds a movie to his Cineplex, the system briefly displays a message of "ALL CHANGES SAVED" near the top of the screen.</p>
     <h3>Removing a movie from a screen</h3>
     <p>Jesse may wish to revoke his decision to select a movie. To do so, he needs to hover over the chosen movie poster in its Screen Slot. The system then displays the clickable message "REMOVE". If Jesse clicks this, then that movie will be removed from that Screen Slot and the spent FB$ will be refunded to him. Any movies located in Screen Slots with higher Screen Numbers than the recently vacated slot will each move down by one slot to fill the lowest possible Screen Slot Numbers. </p>
-    <p>Each time Jesse adds or removes a movie from his Cineplex, the system briefly displays a message of "ALL CHANGES SAVED" near the top of the screen.</p>
-    <p>Jesse may continue to select available movies from the list until one of 2 things happen:</p>
+    <p>Each time Jesse removes a movie from his Cineplex, the system briefly displays a message of "ALL CHANGES SAVED" near the top of the screen.</p>
+    <p><strong>Jesse may continue to select available movies from the list until one of 2 things happen:</strong></p>
     <ul>
         <li>His remaining FML BUX is no longer equal to or greater than the cost of any movie</li>
         <li>All 8 of the Screen Slots have been filled</li>
