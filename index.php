@@ -42,6 +42,7 @@
         <li>time removed (optional)</li>
         <li>screen number</li>
         <li>movie title</li>
+        <li>FML BUX cost</li>
     </ul>
     <p>MOVIE:</p>
     <ul>
