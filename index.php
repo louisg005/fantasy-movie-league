@@ -48,9 +48,4 @@
         <li>movie title</li>
         <li>FML BUX cost</li>
     </ul>
-    <p>USER:</p>
-    <ul>
-        <li>name</li>
-        <li>FML BUX remaining</li>
-
 </html>
