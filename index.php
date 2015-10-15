@@ -8,7 +8,7 @@
     <h1>Fantasy Movie League</h1>
     <hr>
     <h2>Persona:</h2>
-    <p>Jesse is using Fantasy Movie Leage. Jesse is a cinephile. Not merely a movie buff, Jesse has an eccentricity for the internal workings of the film industry, particularly the financial aspects. Jesse is 18-40 years old and male. Jesse was attracted to the site to compete with friends and family in a battle of wits, and thus does not have an overabundance of technological ability. Due to the simple and quick nature of the site, Jesse interacts with it in passing on a mobile device.</p>
+    <p>Jesse is using Fantasy Movie Leage. Jesse is a cinephile. Not merely a movie buff, Jesse has an eccentricity for the internal workings of the film industry, particularly the financial aspects. Jesse is 18-40 years old and male. Jesse was attracted to the site to compete with friends and family in a battle of wits, and thus does not have an overabundance of technological ability. Due to the simple and quick nature of the site, Jesse interacts with it in passing on a Motorola Droid Turbo running Android 5.1.</p>
     <h2>Use case:</h2>
     <p>Jesse's objective on this page is to fill the screens of his "cineplex" with the movies of his choice, while remaining under budget. His ultimate goal is to accumulate more "box office wealth" than those he is playing against.</p>
     <p>From the get-go, the system displays Jesse's name along the top of the screen. Adjacent to this are meters indicating the Jesse's total box office commissions and where that ranks among other users during the current season. Directly below this is a bar which informs the user of 4 things:</p>
@@ -46,5 +46,7 @@
     <p>MOVIE:</p>
     <ul>
         <li>movie ID (primary key)........ONE-TO-MANY relationship with rows in the SCREENS table</li>
+        <li>movie title</li>
+        <li>FML BUX cost</li>
     </ul>
 </html>
