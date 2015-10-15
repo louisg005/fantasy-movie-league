@@ -52,5 +52,5 @@
     </ul>
     <hr>
     <h1>Entity Relationship Diagram</h1>
-    <img src="fantasy-movie-league-erd(1).svg" alt="entity relationship diagram"/>
+    <img src="fantasy-movie-league-erd(2).svg" alt="entity relationship diagram"/>
 </html>
