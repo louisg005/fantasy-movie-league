@@ -8,7 +8,7 @@
     <h1>Fantasy Movie League</h1>
     <hr>
     <h2>Persona:</h2>
-    <p>The core user of Fantasy Movie League is a cinephile. Not merely a movie buff, this person has an eccentricity for the internal workings of the film industry, particularly the financial aspects. This user is probably an adult. The user was probably attracted to the site to compete with friends and family in a battle of wits, and thus does not necessarily have an overabundance of technological ability. Due to the simple nature of the site, it is likely that the user would be interacting with it in passing on a mobile device.</p>
+    <p>The core user of Fantasy Movie League is a cinephile. Not merely a movie buff, this person has an eccentricity for the internal workings of the film industry, particularly the financial aspects. This user is probably an adult. The user was probably attracted to the site to compete with friends and family in a battle of wits, and thus does not necessarily have an overabundance of technological ability. Due to the simple and quick nature of the site, it is likely that the user would be interacting with it in passing on a mobile device.</p>
     <h2>Use case:</h2>
     <p>The user's primary objective is to fill the screens of their "cineplex" with the movies of their choice, while remaining under budget.</p>
     <p>From the get-go, the user can see the name of their cineplex along the top of the screen. Underneath this is an auxillary bar which informs them of two things:</p>
