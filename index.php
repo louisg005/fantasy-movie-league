@@ -54,6 +54,7 @@
     <h1>Entity Relationship Diagram</h1>
     <img src="fantasy-movie-league-erd(5).svg" alt="entity relationship diagram"/>
     <hr>
+</html>
     CREATE TABLE movies (
         movieId TINYINT UNSIGNED AUTO_INCREMENT NOT NULL,
         movieTitle VARCHAR(64) NOT NULL,
@@ -61,4 +62,3 @@
         UNIQUE (movieTitle),
         PRIMARY KEY (movieId)
     );
-</html>
