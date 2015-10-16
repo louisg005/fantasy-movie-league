@@ -59,9 +59,20 @@
             movieId TINYINT UNSIGNED AUTO_INCREMENT NOT NULL,
             movieTitle VARCHAR(64) NOT NULL,
             buxCost SMALLINT UNSIGNED NOT NULL,
-            UNIQUE (movieTitle),
+            UNIQUE(movieTitle),
             PRIMARY KEY (movieId)
          );
-
+        CREATE TABLE screens (
+            screeningId INT UNSIGNED AUTO_INCREMENT NOT NULL,
+            movieId TINYINT UNSIGNED NOT NULL,
+            screenSlot TINYINT UNSIGNED NOT NULL,
+            timeAdded DATETIME NOT NULL,
+            timeRemoved DATETIME,
+            INDEX(movieId),
+            INDEX(timeAdded),
+            INDEX(timeRemoved),
+            FOREIGN KEY(movieId) REFERENCES movies(movieId),
+            PRIMARY KEY(screeningId)
+        );
     </body>
 </html>
