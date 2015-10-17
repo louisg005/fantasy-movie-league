@@ -61,6 +61,7 @@
         movieTitle VARCHAR(64) NOT NULL,
         buxCost SMALLINT UNSIGNED NOT NULL,
         UNIQUE(movieTitle),
+        INDEX(buxCost),
         PRIMARY KEY (movieId)
     );
     CREATE TABLE screens (
