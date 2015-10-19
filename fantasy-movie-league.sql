@@ -23,5 +23,5 @@ CREATE TABLE screens (
 );
 
 INSERT INTO movies (movieTitle,buxCost)
-    VALUES("The Martian", "410");
+    VALUES("The Martian", 410);
 
