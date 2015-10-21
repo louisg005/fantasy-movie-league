@@ -24,7 +24,7 @@ class Movies {
      *
      * @param int $newMovieId new movie id
      * @param string $newMovieTitle new movie title
-     * @param $newBuxCost new bux cost
+     * @param $newBuxCost new value for bux cost
      * @throws UnexpectedValueException if any of the parameters are invalid
      **/
     public function __construct($newMovieId, $newMovieTitle, $newBuxCost) {
@@ -114,5 +114,15 @@ class Movies {
             throw(new RangeException("bux cost is not positive"));
         }
         $this->buxCost = intval($newBuxCost);
+    }
+    /**
+     * toString() magic method
+     *
+     * @return string HTML formatted movie
+     **/
+    public function __toString() {
+        //create an HTML formatted movie
+        $html = "<p>$this->buxCost</p>";
+        return($html);
     }
 }
