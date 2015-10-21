@@ -52,3 +52,20 @@ INSERT INTO movies (movieTitle,buxCost)
     VALUES("The Visit", 28);
 INSERT INTO movies (movieTitle,buxCost)
     VALUES("War Room", 24);
+
+INSERT INTO screens (screenSlot,movieId,timeAdded)
+    VALUES (1, 1, '2015-10-19 1:25:08');
+INSERT INTO screens (screenSlot,movieId,timeAdded)
+    VALUES (2, 9, '2015-10-19 1:29:08');
+INSERT INTO screens (screenSlot,movieId,timeAdded)
+    VALUES (3, 10, '2015-10-19 13:30:08');
+INSERT INTO screens (screenSlot,movieId,timeAdded)
+    VALUES (4, 11, '2015-10-19 13:31:08');
+INSERT INTO screens (screenSlot,movieId,timeAdded)
+    VALUES (5, 12, '2015-10-19 13:32:08');
+INSERT INTO screens (screenSlot,movieId,timeAdded)
+    VALUES (6, 13, '2015-10-19 13:33:08');
+INSERT INTO screens (screenSlot,movieId,timeAdded)
+    VALUES (7, 14, '2015-10-19 13:34:08');
+INSERT INTO screens (screenSlot,movieId,timeAdded)
+    VALUES (8, 15, '2015-10-19 13:35:08');
