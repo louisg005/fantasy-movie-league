@@ -10,14 +10,17 @@
 class Movies {
 	/**
 	 * movieId; this is the primary key
+	 * @var int $movieId
 	 **/
 	private $movieId;
 	/**
 	 * the title of the movie
+	 * @var string $movieTitle
 	 **/
 	private $movieTitle;
 	/**
 	 * the cost (in Bux) to the user
+	 * @var int $buxCost
 	 **/
 	private $buxCost;
 
@@ -41,9 +44,9 @@ class Movies {
 	}
 
 	/**
-	 * accessor method for movieId
+	 * accessor method for movie id
 	 *
-	 * @return int value of movieId
+	 * @return int value of movie id
 	 **/
 	public function getMovieId() {
 		return ($this->movieId);

@@ -1,48 +1,75 @@
 <?php
-
 /**
- *Some kind of class!
+ * The screens
  *
- * A more detailed description of the class!
+ * What's currently playing on the screens
  *
  * @author Louis Gill <lgill7@cnm.edu>
  **/
+
 class Screening {
 	/**
-	 *screeningId; this is the primary key
+	 * screening id; this is the primary key
+	 * @var int $screeningId
 	 **/
 	private $screeningId;
 	/**
-	 * movieId; this is a foreign key
+	 * movie id; this is a foreign key
+	 * @var int $movieId
 	 **/
 	private $movieId;
 	/**
-	 * the numbered location of the selected movie
+	 * the screen slot on which a movie is playing
+	 * @var int $screenSlot
 	 **/
 	private $screenSlot;
 	/**
-	 * the date/time that the movie was added to the entity
+	 * the time that the movie was added
+	 * @var DateTime $timeAdded
 	 **/
 	private $timeAdded;
 	/**
-	 * the date/time that the movie was removed from the entity
+	 * the time that the movie was removed
+	 * @var DateTime $timeRemoved
 	 **/
 	private $timeRemoved;
 
 	/**
-	 * accessor method for screeningId
-	 *
-	 * @return int value of screeningId
+	 * accessor method for screening id
+	 * @return int value of screening id
 	 **/
 	public function getScreeningId() {
-		return ($this->screeningId);
+		return($this->screeningId);
 	}
-
 	/**
-	 * mutator method for screeningId
-	 *
-	 * @param int
-	 */
+	 * accessor method for movie id
+	 * @return int value of movie id
+	 **/
+	public function getMovieId() {
+		return($this->movieId);
+	}
+	/**
+ * accessor method for screen slot
+ * @return int value of screen slot
+ **/
+	public function getScreenSlot() {
+		return($this->screenSlot);
+	}
+	/**
+	 * accessor method for time added
+	 * @return DateTime value of time added
+	 **/
+	public function getTimeAdded() {
+		return($this->timeAdded);
+	}
+	/**
+	 * accessor method for time removed
+	 * @return DateTime value of time removed
+	 **/
+	public function getTimeRemoved() {
+		return($this->timeRemoved);
+	}
 }
+
 
 ?>
