@@ -22,9 +22,9 @@ class Movies {
     /**
      * constructor for this movie
      *
-     * @param int $newMovieId new movie id
-     * @param string $newMovieTitle new movie title
-     * @param $newBuxCost new value for bux cost
+     * @param int $newMovieId new value for movie id
+     * @param string $newMovieTitle new value for movie title
+     * @param int $newBuxCost new value for bux cost
      * @throws UnexpectedValueException if any of the parameters are invalid
      **/
     public function __construct($newMovieId, $newMovieTitle, $newBuxCost) {
