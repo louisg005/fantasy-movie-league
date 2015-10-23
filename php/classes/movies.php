@@ -128,6 +128,26 @@ class Movies {
 	}
 
 	/**
+	 * inserts a movie into MySQL
+	 *
+	 * @param PDO $pdo PDO connection object
+	 * @throws PDOException when MySQL related errors occur
+	 **/
+	public function insert(PDO $pdo) {
+		if ($this->movieId !== null) {
+			throw(new PDOException("not a new movie"));
+		}
+		//create query template
+		$query = "INSERT INTO movies(movieTitle,buxCost) VALUES(:movieTitle,:buxCost)";
+		$statement = $pdo->prepare($query);
+		//bind the member variables to the placeholders in the template
+		$formattedDate = $this->tweetDate->format("Y-m-d H:i:s");
+		$parameters = array("movieTitle => $this->movieTitle, buxCost => $this->buxCost");
+		$statement->execute($parameters);
+		//update the null movieId with what MySQL just gave us
+		$this->movieId = intval($pdo->lastInsert)
+	}
+	/**
 	 * toString() magic method
 	 *
 	 * @return string HTML formatted movie
