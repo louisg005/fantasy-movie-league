@@ -141,12 +141,33 @@ class Movies {
 		$query = "INSERT INTO movies(movieTitle,buxCost) VALUES(:movieTitle,:buxCost)";
 		$statement = $pdo->prepare($query);
 		//bind the member variables to the placeholders in the template
-		$formattedDate = $this->tweetDate->format("Y-m-d H:i:s");
 		$parameters = array("movieTitle => $this->movieTitle, buxCost => $this->buxCost");
 		$statement->execute($parameters);
 		//update the null movieId with what MySQL just gave us
-		$this->movieId = intval($pdo->lastInsert)
+		$this->movieId = intval($pdo->lastInsertId());
 	}
+
+	/**
+	 * deletes a movie from MySQL
+	 *
+	 * @param PDO $pdo PDO connection object
+	 * @throws PDOException when MySQL related errors occur
+	 **/
+	public function delete(PDO $pdo) {
+		if ($this->movieId === null) {
+			throw(new PDOException("unable to delete a movie that doesn't exist"));
+		}
+		$query = "DELETE FROM movies WHERE movieId = :movieId";
+		$statement = $pdo->prepare($query);
+
+		$parameters = array("movieTitle => $this->movieTitle, buxCost => $this->buxCost");
+		$statement->execute($parameters);
+	}
+	/**
+	 * updates a movie in MySQL
+	 *
+	 * @
+	 */
 	/**
 	 * toString() magic method
 	 *
