@@ -166,8 +166,18 @@ class Movies {
 	/**
 	 * updates a movie in MySQL
 	 *
-	 * @
-	 */
+	 * @param PDO $pdo PDO connection object
+	 * @throws PDOException when MySQL related errors occur
+	 **/
+	public function update(PDO $pdo) {
+		if($this->movieId === null) {
+			throw(new PDOException("unable to update a movie that does not exist"));
+		}
+		$query = "UPDATE movies SET movieTitle = :movieTitle, buxCost = :buxCost WHERE movieId = :movieId";
+		$statement = $pdo->prepare($query);
+
+		$parameters = array("movieTitle" => $this)
+	}
 	/**
 	 * toString() magic method
 	 *
